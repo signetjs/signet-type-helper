@@ -1,0 +1,43 @@
+{
+  "name": "signet-type-helper",
+  "version": "1.0.0",
+  "description": "A helper to expose types and constructors as module elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/signetjs/signet-type-helper.git"
+  },
+  "keywords": [
+    "signet",
+    "types",
+    "type",
+    "helper"
+  ],
+  "author": "Chris Stead",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/signetjs/signet-type-helper/issues"
+  },
+  "quokka": {
+    "plugins": [
+      "quokka-mocha-bdd",
+      "quokka-signet-explorer"
+    ],
+    "quokka-mocha-bdd": {
+      "interface": "bdd"
+    }
+  },
+  "homepage": "https://github.com/signetjs/signet-type-helper#readme",
+  "dependencies": {
+    "signet": "^3.11.3"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
+    "quokka-mocha-bdd": "^1.1.0",
+    "quokka-signet-explorer": "^1.0.0"
+  }
+}
